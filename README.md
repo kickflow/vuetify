@@ -4,13 +4,17 @@ kickflowが使用するVuetifyのforkリポジトリです。
 
 ## 使用方法
 
+package.json内のVuetifyのバージョン指定を以下のように変更後、`yarn install`を実行してください。
+
 ```
-yarn add -D @kickflow/vuetify
+- "vuetify": "3.5.1"
++ "vuetify": "npm:@kickflow/vuetify@3.5.1-kickflow2"
 ```
 
 ## ブランチ
 
 `kickflow`ブランチに必要なコミットを追加します。
+`master`ブランチは本家に一致するように、コミットしないでください。
 
 ## バージョニング
 
