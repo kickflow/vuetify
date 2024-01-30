@@ -10,8 +10,8 @@
   "homepage": "https://vuetifyjs.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuetifyjs/vuetify.git",
-    "directory": "packages/@kickflow/vuetify"
+    "url": "git+https://github.com/kickflow/vuetify.git",
+    "directory": "packages/vuetify"
   },
   "keywords": [
     "vuetify",
