@@ -73,12 +73,11 @@ export function providePagination (options: {
     return Math.ceil(itemsLength.value / itemsPerPage.value)
   })
 
-  // memo: propsでpageを指定しても1に書き換えられてしまうのでコメントアウト by kobakei
-  // watchEffect(() => {
-  //   if (page.value > pageCount.value) {
-  //     page.value = pageCount.value
-  //   }
-  // })
+  watchEffect(() => {
+    if (page.value > pageCount.value) {
+      page.value = pageCount.value
+    }
+  })
 
   function setItemsPerPage (value: number) {
     itemsPerPage.value = value
