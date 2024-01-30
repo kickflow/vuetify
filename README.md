@@ -29,6 +29,12 @@ yarn build
 yarn publish
 ```
 
+同時に、タグも打ちましょう。
+
+```
+git tag v3.5.1-kickflow2
+```
+
 ---
 
 <p align="center">
